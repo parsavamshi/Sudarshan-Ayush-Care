@@ -1,0 +1,484 @@
+/* ==========================================================================
+   about.css — Additional styles for About page only
+   Inherits all variables, utilities, navbar, footer from style.css
+   ========================================================================== */
+
+/* ---- Shared page utilities ---- */
+.py-section { padding: 90px 0; }
+.bg-cream   { background-color: var(--color-cream); }
+.bg-white   { background-color: #fff; }
+
+.section-title {
+  font-weight: 700;
+  color: var(--color-dark-green);
+  font-size: clamp(1.2rem, 3.5vw, 2.4rem);
+  margin-bottom: 12px;
+}
+
+.body-text {
+  color: #4a4a4a;
+  line-height: 1.8;
+  margin-bottom: 16px;
+  /* 16px; */
+  font-size: 16px;
+}
+
+/* ---- Scroll reveal base ---- */
+/* [data-reveal] {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity .6s ease calc(var(--delay, 0s)), transform .6s ease calc(var(--delay, 0s));
+}
+[data-reveal="left"]  { transform: translateX(-40px); }
+[data-reveal="right"] { transform: translateX(40px); }
+[data-reveal].revealed {
+  opacity: 1;
+  transform: translate(0);
+} */
+
+/* ==========================================================================
+   SECTION 1 — HERO BANNER
+   ========================================================================== */
+.about-hero {
+  position: relative;
+  background: linear-gradient(120deg, #081710 0%, #0f2a1d 55%, #173a26 100%);
+  padding: 86px 0 80px;
+  /* overflow: hidden; */
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* padding: 110px 0 80px;   */
+  /* padding: 140px 0 130px; */
+  /* padding: 180px 0 160px; */
+}
+.about-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(45deg, rgba(255,255,255,0.012) 0 2px, transparent 2px 40px);
+  pointer-events: none;
+}
+.about-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 70% 40%, rgba(212,175,55,0.18), transparent 55%);
+}
+.about-hero__title {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  color: #fff;
+  margin-bottom: 14px;
+}
+.about-breadcrumb {
+  --bs-breadcrumb-divider: '›';
+}
+.about-breadcrumb .breadcrumb-item a { color: var(--color-gold-light); }
+.about-breadcrumb .breadcrumb-item.active,
+.about-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  color: var(--color-text-muted);
+}
+
+/* ==========================================================================
+   SECTION 2 — ABOUT HOSPITAL
+   ========================================================================== */
+.about-img-wrap {
+  position: relative;
+  max-width: 440px;
+  margin: 0 auto;
+}
+.about-img-main {
+  width: 100%;
+  aspect-ratio: 4/3.2;
+  border-radius: 20px;
+  background: linear-gradient(150deg, #1c4a30, #0c2118);
+  border: 2px solid rgba(212,175,55,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 7rem;
+  color: rgba(240,210,122,0.55);
+  box-shadow: 0 18px 50px rgba(0,0,0,0.18);
+}
+.about-img-main img{
+  border-radius: 20px;
+}
+.about-badge {
+  position: absolute;
+  bottom: -18px;
+  right: -18px;
+  background: linear-gradient(135deg, var(--color-gold-light), var(--color-gold));
+  color: var(--color-dark-green);
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 24px rgba(212,175,55,0.45);
+  text-align: center;
+}
+.about-badge__num {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.about-badge__txt {
+  /* font-size: 0.6rem; */
+  font-size:14px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+}
+.about-lead {
+  color: var(--color-dark-green);
+  /* font-size: 1.3rem; */
+  font-size: clamp(1.2rem, 3.5vw, 1.3rem);
+
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+/* Mini stats */
+.mini-stat {
+  background: #fff;
+  border: 1px solid rgba(212,175,55,0.3);
+  border-radius: 14px;
+  padding: 16px 12px;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+  display: flex;
+  gap: 8px;
+  width: 234px;
+  height: 100px;
+  align-items: center;
+}
+.mini-stat__content{
+  text-align: left;
+}
+.mini-stat i { font-size: 2.54rem; color: var(--color-gold); margin-bottom: 6px; display: block; }
+.mini-stat h5 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-dark-green);
+  font-size: 1.3rem;
+  margin-bottom: 2px;
+}
+/* .mini-stat p { font-size: 0.72rem; color: #666; margin: 0; font-weight: 800;} */
+.mini-stat p { font-size: 12px; color:  var(--color-dark-green); margin: 0; }
+
+/* ==========================================================================
+   SECTION 3 — HERITAGE / DR. PROFILE
+   ========================================================================== */
+.heritage-list-title {
+  font-weight: 700;
+  color: var(--color-dark-green);
+  margin: 22px 0 12px;
+  font-size: 1rem;
+}
+.dignitary-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.dignitary-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 9px 14px;
+  border-radius: 8px;
+  background: var(--color-cream);
+  border-left: 3px solid var(--color-gold);
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: 500;
+}
+.dignitary-list i { color: var(--color-gold); margin-top: 2px; flex-shrink: 0; }
+
+/* Doctor Profile Card */
+.dr-profile-card {
+  background: linear-gradient(170deg, #0f2a1d, #173a26);
+  border: 1.5px solid rgba(212,175,55,0.4);
+  border-radius: 22px;
+  overflow: hidden;
+  max-width: 360px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.22);
+  text-align: center;
+}
+.dr-profile-card__photo {
+  height: 210px;
+  background: linear-gradient(160deg, #1c4a30, #0c2118);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 7rem;
+  color: rgba(240,210,122,0.5);
+  border-bottom: 1px solid rgba(212,175,55,0.25);
+}
+.dr-profile-card__body { padding: 24px 26px 28px; }
+.dr-profile-card__eyebrow {
+  /* color: var(--color-gold); */
+  color: #ffd85b;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.dr-profile-card__name {
+  /* font-family: var(--font-heading); */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.35rem;
+  margin-bottom: 0;
+}
+.dr-profile-card__badges {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.dr-profile-card__badges li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  padding: 7px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+.dr-profile-card__badges li:last-child { border-bottom: none; }
+.dr-profile-card__badges i { color: var(--color-gold); flex-shrink: 0; }
+
+/* ==========================================================================
+   SECTION 4 — VISION & MISSION
+   ========================================================================== */
+.vision-section {
+  background: linear-gradient(135deg, #0c2118, #173a26);
+}
+.vm-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(212,175,55,0.3);
+  border-radius: 18px;
+  padding: 38px 28px;
+  text-align: center;
+  height: 100%;
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.vm-card:hover { transform: translateY(-6px); box-shadow: 0 16px 36px rgba(0,0,0,0.25); }
+.vm-card__icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-gold-light), var(--color-gold));
+  color: var(--color-dark-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  margin: 0 auto 18px;
+}
+.vm-card h4 {
+  font-family: var(--font-heading);
+  color: var(--color-gold-light);
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.vm-card p { color: var(--color-text-muted); font-size: 0.92rem; line-height: 1.7; margin: 0; }
+
+/* ==========================================================================
+   SECTION 5 — WHY CHOOSE US
+   ========================================================================== */
+.why-card {
+  background: #fff;
+  border: 1px solid rgba(12,33,24,0.08);
+  border-radius: 16px;
+  padding: 30px 22px;
+  text-align: center;
+  height: 100%;
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.why-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 30px rgba(12,33,24,0.1);
+}
+.why-card__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-dark-green), var(--color-mid-green));
+  color: var(--color-gold-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.45rem;
+  margin: 0 auto 16px;
+}
+.why-card h5 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-dark-green);
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+}
+.why-card p { color: #555; font-size: 0.87rem; line-height: 1.65; margin: 0; }
+
+/* ==========================================================================
+   SECTION 6 — TIMELINE
+   ========================================================================== */
+.timeline {
+  position: relative;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0; bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, transparent, var(--color-gold), var(--color-gold), transparent);
+  transform: translateX(-50%);
+}
+.timeline__item {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: calc(50% + 32px);
+  margin-bottom: 42px;
+  position: relative;
+}
+.timeline__item--right {
+  justify-content: flex-start;
+  padding-right: 0;
+  padding-left: calc(50% + 32px);
+}
+.timeline__dot {
+  position: absolute;
+  left: 50%;
+  top: 16px;
+  transform: translateX(-50%);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-gold-light), var(--color-gold));
+  color: var(--color-dark-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  z-index: 1;
+  box-shadow: 0 4px 14px rgba(212,175,55,0.5);
+}
+.timeline__card {
+  background: #fff;
+  border: 1px solid rgba(212,175,55,0.25);
+  border-radius: 14px;
+  padding: 20px 22px;
+  max-width: 320px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.07);
+}
+.timeline__year {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--color-gold);
+  background: rgba(212,175,55,0.1);
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+.timeline__card h5 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-dark-green);
+  margin-bottom: 6px;
+  font-size: 1rem;
+}
+.timeline__card p { color: #555; font-size: 0.87rem; line-height: 1.6; margin: 0; }
+
+/* Mobile timeline — stacked left-aligned */
+@media (max-width: 767.98px) {
+  .timeline::before { left: 20px; }
+  .timeline__item,
+  .timeline__item--right {
+    justify-content: flex-start;
+    padding-right: 0;
+    padding-left: 58px;
+  }
+  .timeline__dot { left: 20px; }
+  .timeline__card { max-width: 100%; }
+  .about-hero{
+     padding: 30px 0 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .py-section { padding: 70px 0; }
+  .about-img-wrap { max-width: 100%; }
+  .about-badge {
+    width: 78px;
+    height: 78px;
+    right: 8px;
+    bottom: 8px;
+  }
+  .mini-stat {
+    width: 100%;
+    min-height: 96px;
+    padding: 14px 12px;
+  }
+  .dr-profile-card { max-width: 100%; }
+  .dr-profile-card__photo { height: fit-content; }
+  /* .dr-profile-card__photo { height: 180px; } */
+  .dignitary-list li { font-size: 0.86rem; }
+  .dr-profile-card__photo img{
+    width:100%;
+    height: 100%;
+  }
+}
+
+/* ==========================================================================
+   SECTION 7 — CTA
+   ========================================================================== */
+.about-cta {
+  position: relative;
+  background: linear-gradient(120deg, #081710 0%, #0f2a1d 60%, #173a26 100%);
+  padding: 100px 0;
+  overflow: hidden;
+}
+.about-cta::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(212,175,55,0.18), transparent 60%);
+}
+.about-cta__overlay {
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(45deg, rgba(255,255,255,0.01) 0 2px, transparent 2px 40px);
+}
+.about-cta__title {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  color: #fff;
+  margin-bottom: 12px;
+}
+.about-cta__sub {
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+
+#about-hospital .eyebrow{
+  /* font-size: 14px; */
+  font-size: 20px;
+  font-weight: 500;
+}

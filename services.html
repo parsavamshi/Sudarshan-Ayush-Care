@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Treatments | Sudarshan AYURVEDA CENTRE</title>
+  <meta name="description" content="Explore 19 specialised Ayurvedic treatments at Sudarshan Ayurveda Centre, Kakinada — from skin conditions to digestive disorders and respiratory care.">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Shared styles -->
+  <link rel="stylesheet" href="styles/style.css">
+  <!-- Services page additional styles -->
+  <link rel="stylesheet" href="styles/services.css">
+</head>
+<body>
+
+   <div class="loader" id="siteLoader">
+  <img src="./images/icons/Logo-Web.gif" alt="Loading..." class="loader-gif">
+</div>
+<div class="loader2" id="siteLoader2">
+  <img src="./images/icons/Logo-Mobile.gif" alt="Loading..." class="loader-gif2">
+</div>
+
+  <!-- ===== NAVBAR ===== -->
+<!-- ===== HEADER / NAVBAR ===== -->
+<header class="site-header" id="header">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+       <a class="navbar-brand d-flex align-items-center gap-3" href="index.html">
+        <div class="brand-logo">
+          <!-- <i class="bi bi-flower2"></i> -->
+          <img src="./images/Logo.png" alt="Sudarshan AYURVEDA CENTRE Logo" class="brand-logo">
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">SUDARSHAN</span>
+          <span class="brand-sub">AYURVEDA CENTRE</span>
+          <span class="brand-location">• KAKINADA •</span>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="our-heritage.html">Our Heritage</a></li>
+          <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+            <a href="contact.html" class="btn btn-book"><i class="bi bi-calendar-check me-2"></i>Book Appointment</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <!-- ===== SECTION 1 : HERO BANNER ===== -->
+  <section class="svc-hero" aria-label="Services hero">
+    <div class="svc-hero__overlay"></div>
+    <div class="container position-relative text-center">
+      <div class="ornament-divider mx-auto mb-3">
+        <span></span><i class="bi bi-flower1"></i><span></span>
+      </div>
+      <h1 class="svc-hero__title">Our Services</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb justify-content-center svc-breadcrumb mb-0">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Services</li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 2 : TWO-COLUMN LAYOUT ===== -->
+  <section class="svc-main" id="services-main">
+    <div class="container-fluid px-0">
+      <div class="svc-layout">
+
+        <div class="svc-mobile-toggle-wrap d-lg-none">
+          <button class="svc-mobile-menu-toggle" id="svcMenuToggle" type="button" aria-expanded="false" aria-controls="svcNav">
+            <i class="bi bi-list me-2"></i>Services
+          </button>
+        </div>
+
+        <!-- ── LEFT : Service Navigation Menu ── -->
+        <aside class="svc-nav" id="svcNav" aria-label="Service list" aria-hidden="true">
+          <div class="svc-nav__mobilebar d-lg-none">
+            <span><i class="bi bi-grid-3x3-gap-fill me-2"></i>Our Services</span>
+            <button class="svc-nav__close" id="svcNavClose" type="button" aria-label="Close service menu"><i class="bi bi-x-lg"></i></button>
+          </div>
+          <div class="svc-nav__header d-none d-lg-block">
+            <i class="bi bi-grid-3x3-gap-fill me-2"></i>Our Services
+          </div>
+
+          <!-- Vertical service list for desktop and mobile overlay -->
+          <ul class="svc-nav__list" id="svcNavList" role="tablist">
+            <!-- Populated by JS -->
+          </ul>
+
+          <!-- Mobile: hidden horizontal tabs (not used) -->
+          <div class="svc-nav__tabs d-none" id="svcNavTabs" role="tablist"></div>
+        </aside>
+
+        <!-- ── RIGHT : Dynamic Service Content ── -->
+        <main class="svc-content" id="svcContent" aria-live="polite">
+          <!-- Populated dynamically by services.js -->
+          <div class="svc-loading" id="svcLoading">
+            <div class="spinner-border text-warning" role="status"></div>
+          </div>
+        </main>
+
+        <div class="svc-backdrop d-lg-none" id="svcBackdrop" tabindex="-1"></div>
+      </div><!-- /.svc-layout -->
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container py-5">
+    <div class="row g-4 justify-content-center">
+      <div class="col-lg-4">
+        <div class="footer-brand">
+          <!-- <i class="bi bi-flower2"></i> -->
+           <img src="./images/Logo.png" alt="Sudarshan AYURVEDA CENTRE Logo" class="brand-logo">
+          <div class="d-grid">
+            <span class="brand-title">SUDARSHAN</span>
+            <span class="brand-sub">AYURVEDA CENTRE</span>
+                      <span class="brand-location">• KAKINADA •</span>
+
+          </div>
+        </div>
+        <p class="mt-3">5 Generations of authentic Ayurveda Since 1863. <br> Traditional wisdom, Natural healing, Holistic wellness.</p>
+      </div>
+      <div class="col-lg-2 col-6">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./gallery.html">Gallery</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-6">
+        <h6>Services</h6>
+        <ul class="footer-links">
+          <li><a href="./services.html#svc-1">Psoriasis</a></li>
+          <li><a href="./services.html#svc-2">Hair Problems, Hair Fall & Hair Growth</a></li>
+          <li><a href="./services.html#svc-3">Marital Life Problems</a></li>
+          <li><a href="./services.html#svc-4">Digestive Disorders</a></li>
+          <li><a href="./services.html#svc-5">Hemorrhoids (Piles)</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h6>Follow Us</h6>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/profile.php?id=61590923502077" target="_blank"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/sudarshanayurvedacentre/" target="_blank"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCOG59hq217nGDN2wRkL2xsw" target="_blank"><i class="bi bi-youtube"></i></a>
+          <!-- <a href="https://wa.me/919959092350" target="_blank"><i class="bi bi-whatsapp"></i></a> -->
+        </div>
+      </div>
+    </div>
+    <hr>
+    <p class="text-center mb-0 copyright">© 2026 Sudarshan AYURVEDA CENTRE, Kakinada. All Rights Reserved.</p>
+  </div>
+</footer>
+
+  <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </a>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Services data + logic -->
+  <script src="scripts/services.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
