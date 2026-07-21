@@ -1,6 +1,6 @@
 /* ==========================================================================
    gallery.js
-   Sudarshan AYURVEDA CENTRE — Gallery Page
+   Sudarshan AYUSH CARE — Gallery Page
    Data-driven gallery: filters, masonry, lightbox, load-more
    ========================================================================== */
 

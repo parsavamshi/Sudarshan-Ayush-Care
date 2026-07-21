@@ -1,6 +1,6 @@
 /* ==========================================================================
    services.js
-   Sudarshan AYURVEDA CENTRE — Services Page
+   Sudarshan AYUSH CARE — Services Page
    All service data + dynamic rendering (no page reload, no duplicate HTML)
    ========================================================================== */
 
@@ -18,7 +18,7 @@ const SERVICES = [
     image: '../images/Services/1-Psoriasis.jpg',      // replace with real path when available
     imagePlaceholderIcon: 'bi-droplet-half',
     description:
-      'Psoriasis is a chronic skin condition that causes red, scaly, itchy, and inflamed patches on the skin due to rapid skin cell growth. Although it is not contagious, it can affect your comfort, confidence, and quality of life. At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic care that focuses on treating the root cause, reducing inflammation, and promoting healthy skin naturally.',
+      'Psoriasis is a chronic skin condition that causes red, scaly, itchy, and inflamed patches on the skin due to rapid skin cell growth. Although it is not contagious, it can affect your comfort, confidence, and quality of life. At Sudarshan AYUSH CARE, we provide personalized Ayurvedic care that focuses on treating the root cause, reducing inflammation, and promoting healthy skin naturally.',
     benefits: [
       'Reduces redness, itching and scaling naturally',
       'Addresses root-cause dosha imbalance',
@@ -49,7 +49,7 @@ const SERVICES = [
     image: '../images/Services/2-Hair-Problems.jpg',      // replace with real path when available
     imagePlaceholderIcon: 'bi-flower3',
     description:
-      'Healthy hair starts with a healthy body. Hair loss and scalp problems can occur due to stress, hormonal imbalance, poor nutrition, dandruff, genetics, or lifestyle factors. At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic treatments that target the root cause, strengthen hair roots, reduce hair fall, and promote healthy, natural hair growth.',
+      'Healthy hair starts with a healthy body. Hair loss and scalp problems can occur due to stress, hormonal imbalance, poor nutrition, dandruff, genetics, or lifestyle factors. At Sudarshan AYUSH CARE, we provide personalized Ayurvedic treatments that target the root cause, strengthen hair roots, reduce hair fall, and promote healthy, natural hair growth.',
     benefits: [
       'Strengthens hair follicles from within',
       'Reduces excessive hair fall and breakage',
@@ -80,7 +80,7 @@ const SERVICES = [
     image: '../images/Services/3-Marital-Life-Problems.jpg',      // replace with real path when available
     imagePlaceholderIcon: 'bi-hearts',
     description:
-      'A healthy married life depends on physical health, emotional well-being, and a strong relationship. Stress, hormonal imbalance, lifestyle disorders, and emotional challenges can affect intimacy and happiness. At Sudarshan Ayurveda Centre, we provide confidential and personalized Ayurvedic care to help couples improve their health, strengthen their relationship, and enjoy a fulfilling married life.',
+      'A healthy married life depends on physical health, emotional well-being, and a strong relationship. Stress, hormonal imbalance, lifestyle disorders, and emotional challenges can affect intimacy and happiness. At Sudarshan AYUSH CARE, we provide confidential and personalized Ayurvedic care to help couples improve their health, strengthen their relationship, and enjoy a fulfilling married life.',
     benefits: [
       'Restores hormonal balance naturally',
       'Improves physical strength and vitality (Ojas)',
@@ -111,7 +111,7 @@ const SERVICES = [
     image: '../images/Services/4-Digestive-Disorders.jpg',      // replace with real path when available
     imagePlaceholderIcon: 'bi-heart-pulse',
     description:
-      'Healthy digestion is the foundation of good health. Disorders affecting the stomach, intestines, liver, and gallbladder can cause persistent discomfort and significantly impact your daily life. At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic treatment that focuses on identifying and treating the root cause, restoring digestive balance naturally, and promoting long-term wellness.',
+      'Healthy digestion is the foundation of good health. Disorders affecting the stomach, intestines, liver, and gallbladder can cause persistent discomfort and significantly impact your daily life. At Sudarshan AYUSH CARE, we provide personalized Ayurvedic treatment that focuses on identifying and treating the root cause, restoring digestive balance naturally, and promoting long-term wellness.',
     benefits: [
       'Heals the gut lining and reduces inflammation',
       'Eliminates toxins (Ama) from the digestive tract',
@@ -142,7 +142,7 @@ const SERVICES = [
     image: '../images/Services/5-Hemorrhoids.jpg',      // replace with real path when available
     imagePlaceholderIcon: 'bi-capsule',
     description:
-      'Hemorrhoids (Piles) are swollen and inflamed veins in the rectum or anus that can cause pain, bleeding, itching, and discomfort during bowel movements. They are commonly associated with constipation, prolonged sitting, low-fiber diets, pregnancy, and excessive straining. At Sudarshan Ayurveda Centre, we provide safe, personalized Ayurvedic treatments that focus on the root cause, offering natural relief and promoting long-term digestive health.',
+      'Hemorrhoids (Piles) are swollen and inflamed veins in the rectum or anus that can cause pain, bleeding, itching, and discomfort during bowel movements. They are commonly associated with constipation, prolonged sitting, low-fiber diets, pregnancy, and excessive straining. At Sudarshan AYUSH CARE, we provide safe, personalized Ayurvedic treatments that focus on the root cause, offering natural relief and promoting long-term digestive health.',
     benefits: [
       'Reduces swelling and inflammation naturally',
       'Relieves pain, itching and bleeding',
@@ -173,7 +173,7 @@ const SERVICES = [
     image: '../images/Services/6-Fistula-in-Ano.jpg',
     imagePlaceholderIcon: 'bi-shield-check',
     description:
-      'A fistula-in-ano is an abnormal tunnel that develops between the anal canal and the skin around the anus, usually as a result of an infection or abscess. It can cause persistent pain, swelling, pus discharge, and recurrent infections if left untreated. At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic care that focuses on eliminating infection, promoting tissue healing, and preventing recurrence through holistic treatment.',
+      'A fistula-in-ano is an abnormal tunnel that develops between the anal canal and the skin around the anus, usually as a result of an infection or abscess. It can cause persistent pain, swelling, pus discharge, and recurrent infections if left untreated. At Sudarshan AYUSH CARE, we provide personalized Ayurvedic care that focuses on eliminating infection, promoting tissue healing, and preventing recurrence through holistic treatment.',
     benefits: [
       'Eliminates infection and pus discharge naturally',
       'Heals the fistulous tract without major surgery',
@@ -204,7 +204,7 @@ const SERVICES = [
     image: '../images/Services/7-Fissure-in-Anus.jpg',
     imagePlaceholderIcon: 'bi-bandaid2',
     description:
-      'An anal fissure is a small tear or crack in the lining of the anus that commonly causes severe pain during bowel movements, bleeding, and burning sensations. It is often associated with constipation, passing hard stools, or prolonged straining. At Sudarshan Ayurveda Centre, we offer personalized Ayurvedic treatments that help heal fissures naturally, relieve pain, improve bowel health, and prevent recurrence.',
+      'An anal fissure is a small tear or crack in the lining of the anus that commonly causes severe pain during bowel movements, bleeding, and burning sensations. It is often associated with constipation, passing hard stools, or prolonged straining. At Sudarshan AYUSH CARE, we offer personalized Ayurvedic treatments that help heal fissures naturally, relieve pain, improve bowel health, and prevent recurrence.',
     benefits: [
       'Relieves severe pain and burning during bowel movements',
       'Heals the fissure naturally without surgery',
@@ -235,7 +235,7 @@ const SERVICES = [
     image: '../images/Services/8-Anorectal-Problems.jpg',
     imagePlaceholderIcon: 'bi-clipboard2-pulse',
     description:
-      'Anorectal disorders affect the anus and rectum and can cause pain, bleeding, swelling, infection, and discomfort during bowel movements. If left untreated, these conditions may interfere with daily life and lead to serious complications. At Sudarshan Ayurveda Centre, we provide safe, effective, and personalized Ayurvedic treatments that focus on relieving symptoms, healing the root cause, and preventing recurrence naturally.',
+      'Anorectal disorders affect the anus and rectum and can cause pain, bleeding, swelling, infection, and discomfort during bowel movements. If left untreated, these conditions may interfere with daily life and lead to serious complications. At Sudarshan AYUSH CARE, we provide safe, effective, and personalized Ayurvedic treatments that focus on relieving symptoms, healing the root cause, and preventing recurrence naturally.',
     benefits: [
       'Safe, effective relief for a wide range of anorectal conditions',
       'Non-invasive Ayurvedic procedures',
@@ -266,7 +266,7 @@ const SERVICES = [
     image: '../images/Services/9-Vitiligo.jpg',
     imagePlaceholderIcon: 'bi-sun',
     description:
-      'Vitiligo is a chronic skin condition characterized by the loss of natural skin pigment, resulting in white patches on different parts of the body. It occurs when melanocytes, the cells responsible for producing melanin, become damaged or inactive. Although Vitiligo is not contagious or life-threatening, it can significantly affect self-confidence and emotional well-being. At Sudarshan Ayurveda Centre, we offer personalized Ayurvedic treatment that focuses on addressing the root cause, balancing the body\'s doshas, strengthening immunity, and promoting healthy skin pigmentation naturally.',
+      'Vitiligo is a chronic skin condition characterized by the loss of natural skin pigment, resulting in white patches on different parts of the body. It occurs when melanocytes, the cells responsible for producing melanin, become damaged or inactive. Although Vitiligo is not contagious or life-threatening, it can significantly affect self-confidence and emotional well-being. At Sudarshan AYUSH CARE, we offer personalized Ayurvedic treatment that focuses on addressing the root cause, balancing the body\'s doshas, strengthening immunity, and promoting healthy skin pigmentation naturally.',
     benefits: [
       'Stimulates melanocyte activity and pigmentation',
       'Balances the immune system to prevent further spread',
@@ -297,7 +297,7 @@ const SERVICES = [
     image: '../images/Services/10-Eczema.jpg',
     imagePlaceholderIcon: 'bi-droplet-half',
     description:
-      'Eczema is a chronic inflammatory skin condition that causes intense itching, dryness, redness, thickened skin, dark discoloration, and irritation. Continuous scratching may lead to rough, leathery skin (lichenification), cracks, and secondary infections. At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic treatment that focuses on treating the root cause, detoxifying the body, balancing the doshas, and restoring healthy skin naturally.',
+      'Eczema is a chronic inflammatory skin condition that causes intense itching, dryness, redness, thickened skin, dark discoloration, and irritation. Continuous scratching may lead to rough, leathery skin (lichenification), cracks, and secondary infections. At Sudarshan AYUSH CARE, we provide personalized Ayurvedic treatment that focuses on treating the root cause, detoxifying the body, balancing the doshas, and restoring healthy skin naturally.',
     benefits: [
       'Relieves intense itching and inflammation',
       'Deeply moisturises and nourishes dry, cracked skin',
@@ -328,7 +328,7 @@ const SERVICES = [
     image: '../images/Services/11-Acne.jpg',
     imagePlaceholderIcon: 'bi-flower2',
     description:
-      'Acne is one of the most common skin conditions, affecting teenagers and adults alike. It develops when hair follicles become clogged with excess oil, dead skin cells, and bacteria, leading to pimples, blackheads, whiteheads, and inflammation. At Sudarshan Ayurveda Centre, we offer personalized Ayurvedic treatments that address the root cause of acne, balance hormones, detoxify the body, and promote healthy, naturally glowing skin.',
+      'Acne is one of the most common skin conditions, affecting teenagers and adults alike. It develops when hair follicles become clogged with excess oil, dead skin cells, and bacteria, leading to pimples, blackheads, whiteheads, and inflammation. At Sudarshan AYUSH CARE, we offer personalized Ayurvedic treatments that address the root cause of acne, balance hormones, detoxify the body, and promote healthy, naturally glowing skin.',
     benefits: [
       'Reduces active pimples and inflammation',
       'Balances hormones and sebum production',
@@ -359,7 +359,7 @@ const SERVICES = [
     image: '../images/Services/12-Keloid.jpg',
     imagePlaceholderIcon: 'bi-shield-plus',
     description:
-      'A keloid is an overgrowth of scar tissue that develops after the skin has healed from an injury. Unlike normal scars, keloids extend beyond the original wound and may continue to grow over time. They can cause itching, pain, tightness, and cosmetic concerns. At Sudarshan Ayurveda Centre, we offer personalized Ayurvedic treatments that focus on improving skin health, reducing inflammation, supporting healthy tissue healing, and minimizing scar-related discomfort naturally.',
+      'A keloid is an overgrowth of scar tissue that develops after the skin has healed from an injury. Unlike normal scars, keloids extend beyond the original wound and may continue to grow over time. They can cause itching, pain, tightness, and cosmetic concerns. At Sudarshan AYUSH CARE, we offer personalized Ayurvedic treatments that focus on improving skin health, reducing inflammation, supporting healthy tissue healing, and minimizing scar-related discomfort naturally.',
     benefits: [
       'Softens and flattens keloid tissue over time',
       'Reduces itching, pain and tightness',
@@ -390,7 +390,7 @@ const SERVICES = [
     image: '../images/Services/13-Feet-Cracks.jpg',
     imagePlaceholderIcon: 'bi-tree',
     description:
-      'Cracked heels, also known as heel fissures, are a common foot condition caused by dry, thickened skin that splits under pressure. While mild cracks may only be a cosmetic concern, deeper cracks can become painful, bleed, and increase the risk of infection. At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic treatments that nourish the skin, correct the root cause, and promote healthy, smooth feet naturally.',
+      'Cracked heels, also known as heel fissures, are a common foot condition caused by dry, thickened skin that splits under pressure. While mild cracks may only be a cosmetic concern, deeper cracks can become painful, bleed, and increase the risk of infection. At Sudarshan AYUSH CARE, we provide personalized Ayurvedic treatments that nourish the skin, correct the root cause, and promote healthy, smooth feet naturally.',
     benefits: [
       'Deep nourishment and moisturisation of heel skin',
       'Healing of painful, bleeding cracks',
@@ -421,7 +421,7 @@ const SERVICES = [
     image: '../images/Services/14-Chronic-Leg.jpg',
     imagePlaceholderIcon: 'bi-bandaid',
     description:
-      'Chronic ulcers are open wounds that fail to heal within a normal period, often lasting for weeks or months. They commonly occur on the legs and feet due to poor blood circulation, diabetes, varicose veins, infections, pressure injuries, or underlying medical conditions. At Sudarshan Ayurveda Centre, we provide comprehensive Ayurvedic care that focuses on healing the wound, improving circulation, reducing inflammation, and treating the root cause naturally.',
+      'Chronic ulcers are open wounds that fail to heal within a normal period, often lasting for weeks or months. They commonly occur on the legs and feet due to poor blood circulation, diabetes, varicose veins, infections, pressure injuries, or underlying medical conditions. At Sudarshan AYUSH CARE, we provide comprehensive Ayurvedic care that focuses on healing the wound, improving circulation, reducing inflammation, and treating the root cause naturally.',
     benefits: [
       'Accelerates natural wound healing',
       'Improves peripheral blood circulation',
@@ -452,7 +452,7 @@ const SERVICES = [
     image: '../images/Services/15-Bronchitis.jpg',
     imagePlaceholderIcon: 'bi-wind',
     description:
-      'Bronchitis is an inflammation of the bronchial tubes that carry air to and from the lungs. It commonly causes persistent cough, mucus production, chest congestion, wheezing, and breathing difficulty. Bronchitis may be acute (short-term) or chronic (long-lasting). At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic treatment that helps reduce inflammation, clear mucus, strengthen lung function, and improve respiratory health naturally.',
+      'Bronchitis is an inflammation of the bronchial tubes that carry air to and from the lungs. It commonly causes persistent cough, mucus production, chest congestion, wheezing, and breathing difficulty. Bronchitis may be acute (short-term) or chronic (long-lasting). At Sudarshan AYUSH CARE, we provide personalized Ayurvedic treatment that helps reduce inflammation, clear mucus, strengthen lung function, and improve respiratory health naturally.',
     benefits: [
       'Clears excess mucus and relieves chest congestion',
       'Reduces bronchial inflammation naturally',
@@ -483,7 +483,7 @@ const SERVICES = [
     image: '../images/Services/16-Sinusitis.jpg',
     imagePlaceholderIcon: 'bi-cloud',
     description:
-      'Sinusitis is the inflammation or swelling of the tissues lining the sinuses, leading to nasal congestion, facial pain, headache, and difficulty breathing. It may occur due to infections, allergies, pollution, or structural problems in the nasal passages. At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic treatments that help reduce inflammation, clear blocked sinuses, strengthen immunity, and restore healthy breathing naturally.',
+      'Sinusitis is the inflammation or swelling of the tissues lining the sinuses, leading to nasal congestion, facial pain, headache, and difficulty breathing. It may occur due to infections, allergies, pollution, or structural problems in the nasal passages. At Sudarshan AYUSH CARE, we provide personalized Ayurvedic treatments that help reduce inflammation, clear blocked sinuses, strengthen immunity, and restore healthy breathing naturally.',
     benefits: [
       'Clears blocked sinuses and restores nasal breathing',
       'Reduces facial pain and pressure headaches',
@@ -514,7 +514,7 @@ const SERVICES = [
     image: '../images/Services/17-Asthma.jpg',
     imagePlaceholderIcon: 'bi-lungs',
     description:
-      'Asthma is a chronic respiratory condition that causes inflammation and narrowing of the airways, making breathing difficult. It can lead to recurring episodes of wheezing, coughing, chest tightness, and shortness of breath. At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic treatment that focuses on reducing airway inflammation, strengthening the respiratory system, improving immunity, and helping you breathe naturally with confidence.',
+      'Asthma is a chronic respiratory condition that causes inflammation and narrowing of the airways, making breathing difficult. It can lead to recurring episodes of wheezing, coughing, chest tightness, and shortness of breath. At Sudarshan AYUSH CARE, we provide personalized Ayurvedic treatment that focuses on reducing airway inflammation, strengthening the respiratory system, improving immunity, and helping you breathe naturally with confidence.',
     benefits: [
       'Reduces frequency and severity of asthma attacks',
       'Decreases bronchial inflammation and hypersensitivity',
@@ -545,7 +545,7 @@ const SERVICES = [
     image: '../images/Services/18-Brittle-Nails.png',
     imagePlaceholderIcon: 'bi-gem',
     description:
-      'Brittle nails (Onychoschizia) are a common nail disorder in which the nails become dry, thin, weak, and split or peel into layers. While often considered a cosmetic concern, brittle nails may also indicate nutritional deficiencies, hormonal imbalance, dehydration, or underlying medical conditions. At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic treatments that nourish the body from within, strengthen nail health, and address the root cause naturally.',
+      'Brittle nails (Onychoschizia) are a common nail disorder in which the nails become dry, thin, weak, and split or peel into layers. While often considered a cosmetic concern, brittle nails may also indicate nutritional deficiencies, hormonal imbalance, dehydration, or underlying medical conditions. At Sudarshan AYUSH CARE, we provide personalized Ayurvedic treatments that nourish the body from within, strengthen nail health, and address the root cause naturally.',
     benefits: [
       'Strengthens weak, splitting and peeling nails',
       'Corrects underlying nutritional deficiencies',
@@ -576,7 +576,7 @@ const SERVICES = [
     image: '../images/Services/19-Alopecia.jpg',
     imagePlaceholderIcon: 'bi-stars',
     description:
-      'Alopecia is a condition that causes partial or complete hair loss from the scalp or other parts of the body. Hair loss may occur gradually or suddenly, resulting in thinning hair, bald patches, or widespread hair shedding. At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic treatments that address the root cause of hair loss, nourish the scalp, strengthen hair follicles, and promote healthy, natural hair regrowth.',
+      'Alopecia is a condition that causes partial or complete hair loss from the scalp or other parts of the body. Hair loss may occur gradually or suddenly, resulting in thinning hair, bald patches, or widespread hair shedding. At Sudarshan AYUSH CARE, we provide personalized Ayurvedic treatments that address the root cause of hair loss, nourish the scalp, strengthen hair follicles, and promote healthy, natural hair regrowth.',
     benefits: [
       'Stimulates dormant hair follicles to regrow',
       'Nourishes the scalp and strengthens hair roots',
@@ -607,7 +607,7 @@ const SERVICES = [
     image: '../images/Services/20-Obesity.jpg',
     imagePlaceholderIcon: 'bi-stars',
     description:
-      'Obesity is a condition caused by excessive body fat that can increase the risk of diabetes, high blood pressure, heart disease, joint pain, and other health problems. It is often linked to unhealthy eating habits, lack of physical activity, hormonal imbalance, stress, and poor metabolism. At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic treatments that focus on the root cause, helping you lose weight naturally while improving your overall health.',
+      'Obesity is a condition caused by excessive body fat that can increase the risk of diabetes, high blood pressure, heart disease, joint pain, and other health problems. It is often linked to unhealthy eating habits, lack of physical activity, hormonal imbalance, stress, and poor metabolism. At Sudarshan AYUSH CARE, we provide personalized Ayurvedic treatments that focus on the root cause, helping you lose weight naturally while improving your overall health.',
     benefits: [
       'Stimulates dormant hair follicles to regrow',
       'Nourishes the scalp and strengthens hair roots',
@@ -639,7 +639,7 @@ const SERVICES = [
     image: '../images/Services/21-Womens-Health-Problems.jpeg',
     imagePlaceholderIcon: 'bi-stars',
     description:
-      "Women's health changes at every stage of life—from adolescence to pregnancy and menopause. Hormonal imbalance, lifestyle stress, poor nutrition, and reproductive health issues can affect overall well-being. At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic treatments that focus on the root cause, helping women achieve better health naturally and safely.",
+      "Women's health changes at every stage of life—from adolescence to pregnancy and menopause. Hormonal imbalance, lifestyle stress, poor nutrition, and reproductive health issues can affect overall well-being. At Sudarshan AYUSH CARE, we provide personalized Ayurvedic treatments that focus on the root cause, helping women achieve better health naturally and safely.",
     benefits: [
       'Stimulates dormant hair follicles to regrow',
       'Nourishes the scalp and strengthens hair roots',
@@ -670,7 +670,7 @@ const SERVICES = [
     image: '../images/Services/22-Leucorrhoea.jpeg',
     imagePlaceholderIcon: 'bi-stars',
     description:
-      "Leucorrhoea, commonly known as white vaginal discharge, is a common condition experienced by many women. While a small amount of discharge is normal, excessive or foul-smelling discharge accompanied by itching, irritation, or pelvic discomfort may indicate an underlying health issue. Hormonal imbalance, infections, poor hygiene, stress, nutritional deficiencies, and weakened immunity are common causes. At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic treatments that focus on identifying and treating the root cause, restoring intimate health naturally.",
+      "Leucorrhoea, commonly known as white vaginal discharge, is a common condition experienced by many women. While a small amount of discharge is normal, excessive or foul-smelling discharge accompanied by itching, irritation, or pelvic discomfort may indicate an underlying health issue. Hormonal imbalance, infections, poor hygiene, stress, nutritional deficiencies, and weakened immunity are common causes. At Sudarshan AYUSH CARE, we provide personalized Ayurvedic treatments that focus on identifying and treating the root cause, restoring intimate health naturally.",
     benefits: [
       'Stimulates dormant hair follicles to regrow',
       'Nourishes the scalp and strengthens hair roots',
@@ -701,7 +701,7 @@ const SERVICES = [
     image: '../images/Services/23-Dysmenorrhea.jpeg',
     imagePlaceholderIcon: 'bi-stars',
     description:
-      "Dysmenorrhea refers to painful menstrual cramps that occur before or during menstruation. The pain may range from mild discomfort to severe cramps that interfere with daily activities. Hormonal imbalance, uterine disorders, stress, inflammation, and lifestyle factors can contribute to this condition. At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic treatments that focus on relieving pain, balancing hormones, improving reproductive health, and addressing the root cause naturally.",
+      "Dysmenorrhea refers to painful menstrual cramps that occur before or during menstruation. The pain may range from mild discomfort to severe cramps that interfere with daily activities. Hormonal imbalance, uterine disorders, stress, inflammation, and lifestyle factors can contribute to this condition. At Sudarshan AYUSH CARE, we provide personalized Ayurvedic treatments that focus on relieving pain, balancing hormones, improving reproductive health, and addressing the root cause naturally.",
     benefits: [
       'Stimulates dormant hair follicles to regrow',
       'Nourishes the scalp and strengthens hair roots',
@@ -732,7 +732,7 @@ const SERVICES = [
     image: '../images/Services/24-Erectile-disfunction.jpeg',
     imagePlaceholderIcon: 'bi-stars',
     description:
-      "Erectile Dysfunction (ED) is the inability to achieve or maintain an erection sufficient for satisfactory sexual performance. It can result from stress, anxiety, diabetes, hormonal imbalance, poor blood circulation, lifestyle habits, or other underlying health conditions. At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic treatments that focus on identifying and treating the root cause, helping restore sexual health, vitality, and confidence naturally.",
+      "Erectile Dysfunction (ED) is the inability to achieve or maintain an erection sufficient for satisfactory sexual performance. It can result from stress, anxiety, diabetes, hormonal imbalance, poor blood circulation, lifestyle habits, or other underlying health conditions. At Sudarshan AYUSH CARE, we provide personalized Ayurvedic treatments that focus on identifying and treating the root cause, helping restore sexual health, vitality, and confidence naturally.",
     benefits: [
       'Stimulates dormant hair follicles to regrow',
       'Nourishes the scalp and strengthens hair roots',
@@ -763,7 +763,7 @@ const SERVICES = [
     image: '../images/Services/25.Premature-Ejaculation.jpeg',
     imagePlaceholderIcon: 'bi-stars',
     description:
-      "Premature Ejaculation (PE) is a common male sexual health condition in which ejaculation occurs sooner than desired during sexual activity. It may affect self-confidence, emotional well-being, and intimate relationships. Stress, anxiety, hormonal imbalance, poor lifestyle habits, and certain medical conditions can contribute to this problem. At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic treatments that focus on identifying and treating the root cause, helping improve control, stamina, and overall sexual wellness naturally.",
+      "Premature Ejaculation (PE) is a common male sexual health condition in which ejaculation occurs sooner than desired during sexual activity. It may affect self-confidence, emotional well-being, and intimate relationships. Stress, anxiety, hormonal imbalance, poor lifestyle habits, and certain medical conditions can contribute to this problem. At Sudarshan AYUSH CARE, we provide personalized Ayurvedic treatments that focus on identifying and treating the root cause, helping improve control, stamina, and overall sexual wellness naturally.",
     benefits: [
       'Stimulates dormant hair follicles to regrow',
       'Nourishes the scalp and strengthens hair roots',
@@ -794,7 +794,7 @@ const SERVICES = [
   //   image: '../images/Services/20-Obesity.jpg',
   //   imagePlaceholderIcon: 'bi-stars',
   //   description:
-  //     'Obesity is a condition caused by excessive body fat that can increase the risk of diabetes, high blood pressure, heart disease, joint pain, and other health problems. It is often linked to unhealthy eating habits, lack of physical activity, hormonal imbalance, stress, and poor metabolism. At Sudarshan Ayurveda Centre, we provide personalized Ayurvedic treatments that focus on the root cause, helping you lose weight naturally while improving your overall health.',
+  //     'Obesity is a condition caused by excessive body fat that can increase the risk of diabetes, high blood pressure, heart disease, joint pain, and other health problems. It is often linked to unhealthy eating habits, lack of physical activity, hormonal imbalance, stress, and poor metabolism. At Sudarshan AYUSH CARE, we provide personalized Ayurvedic treatments that focus on the root cause, helping you lose weight naturally while improving your overall health.',
   //   benefits: [
   //     'Stimulates dormant hair follicles to regrow',
   //     'Nourishes the scalp and strengthens hair roots',

@@ -1,5 +1,5 @@
 // ==========================================================================
-// Sudarshan AYURVEDA CENTRE - Main JS
+// Sudarshan AYUSH CARE - Main JS
 // ==========================================================================
 
 document.addEventListener('DOMContentLoaded', function () {
