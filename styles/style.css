@@ -157,7 +157,7 @@ a { text-decoration: none; }
 }
 .brand-sub {
   color: #fff;
-  font-size: clamp(0.58rem, 2.2vw, 1rem);
+  font-size: clamp(0.72rem, 2.2vw, 1rem);
   /* font-size: clamp(0.58rem, 2.2vw, 0.8rem); */
   /* letter-spacing: clamp(1px, 1.8vw, 1.9px);  */
     letter-spacing: clamp(2px, 2.2vw, 9px);
@@ -1055,8 +1055,12 @@ a { text-decoration: none; }
 }
 .footer-brand .brand-sub{
   color: #fff;
-  font-size: 1.3rem;
-  letter-spacing: 2px;
+  /* font-size: 1.3rem;
+  letter-spacing: 2px; */
+  
+   font-size: 1.6rem;
+  letter-spacing: 7px;
+
   line-height: normal;
 }
 
@@ -1202,7 +1206,7 @@ color: var(--color-gold-light);
   .hero-btns .btn { width: 100%; text-align: center; }
   .testimonial-card { padding: 36px 22px; }
   .brand-sub {
-      letter-spacing: clamp(1px, 1.8vw, 1.6px);
+      letter-spacing: clamp(1px, 1.8vw, 4px);
   }
 
   .mt-lg-0{

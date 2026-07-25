@@ -322,7 +322,8 @@ body.heritage-page.is-loading {
   border-radius: 32px;
   padding: 0;
   overflow: hidden;
-  margin-bottom: -86px;
+  margin-bottom: -66px;
+  /* margin-bottom: -86px; */
   /* position: relative; */
 }
 
